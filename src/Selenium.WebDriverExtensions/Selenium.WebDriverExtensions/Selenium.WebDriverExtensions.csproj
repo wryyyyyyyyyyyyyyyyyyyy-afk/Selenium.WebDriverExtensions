@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>Selenium.WebDriverExtensions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Another One Employee</Authors>
+		<Description>This package provides extensions that use Javascript to control the WebDriver and the WebDriverHolder for using a single WebDriver in the entire code.</Description>
+		<PackageLicenseExpression>WTFPL</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/another-one-employee/Selenium.WebDriverExtensions</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/another-one-employee/Selenium.WebDriverExtensions</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Selenium.WebDriver" Version="4.26.1" />
+		<PackageReference Include="System.Text.Json" Version="9.0.0" />
+	</ItemGroup>
+
+</Project>
