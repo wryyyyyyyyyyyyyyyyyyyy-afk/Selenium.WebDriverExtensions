@@ -35,6 +35,7 @@ jobs:
         run: dotnet pack --configuration Release --output ./output
 
       - name: Publish to GitHub Packages
+        working-directory: ${{env.working-directory}}
         run: >
           dotnet nuget push ./output/*.nupkg
           -s https://nuget.pkg.github.com/wryyyyyyyyyyyyyyyyyyyy-afk/index.json
